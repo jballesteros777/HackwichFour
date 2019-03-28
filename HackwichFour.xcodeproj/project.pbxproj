@@ -12,6 +12,8 @@
 		7F0656912228729200CF5451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F06568F2228729200CF5451 /* Main.storyboard */; };
 		7F0656932228729200CF5451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F0656922228729200CF5451 /* Assets.xcassets */; };
 		7F0656962228729200CF5451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F0656942228729200CF5451 /* LaunchScreen.storyboard */; };
+		7F6B0F05224D5E7000C21BBF /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F6B0F04224D5E7000C21BBF /* Property List.plist */; };
+		7F6B0F07224D654A00C21BBF /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6B0F06224D654A00C21BBF /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7F0656922228729200CF5451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F0656952228729200CF5451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F0656972228729200CF5451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F6B0F04224D5E7000C21BBF /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		7F6B0F06224D654A00C21BBF /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				7F06568B2228729200CF5451 /* AppDelegate.swift */,
 				7F06568D2228729200CF5451 /* ViewController.swift */,
+				7F6B0F06224D654A00C21BBF /* detailViewController.swift */,
 				7F06568F2228729200CF5451 /* Main.storyboard */,
+				7F6B0F04224D5E7000C21BBF /* Property List.plist */,
 				7F0656922228729200CF5451 /* Assets.xcassets */,
 				7F0656942228729200CF5451 /* LaunchScreen.storyboard */,
 				7F0656972228729200CF5451 /* Info.plist */,
@@ -125,6 +131,7 @@
 			files = (
 				7F0656962228729200CF5451 /* LaunchScreen.storyboard in Resources */,
 				7F0656932228729200CF5451 /* Assets.xcassets in Resources */,
+				7F6B0F05224D5E7000C21BBF /* Property List.plist in Resources */,
 				7F0656912228729200CF5451 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			files = (
 				7F06568E2228729200CF5451 /* ViewController.swift in Sources */,
 				7F06568C2228729200CF5451 /* AppDelegate.swift in Sources */,
+				7F6B0F07224D654A00C21BBF /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
